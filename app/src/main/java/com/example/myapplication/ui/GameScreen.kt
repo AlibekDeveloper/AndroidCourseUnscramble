@@ -173,9 +173,8 @@ fun GameLayout(
                 shape = shapes.large,
                 modifier = Modifier.fillMaxWidth(),
                 colors = TextFieldDefaults.outlinedTextFieldColors(
-                    focusedBorderColor = colorScheme.surface,
-                    unfocusedBorderColor = colorScheme.surface,
-                    disabledBorderColor = colorScheme.surface,
+                    containerColor = colorScheme.surface,
+                    disabledBorderColor = colorScheme.surface
                 ),
                 onValueChange = onUserGuessChanged,
                 label = {
